@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'azshagent'
+  vmImage: 'MyAgentPool'
 
 steps:
 - task: NodeTool@0
